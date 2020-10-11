@@ -44,5 +44,11 @@ public class Github_act extends AppCompatActivity {
         else if (libro.equals("El Alquimista")) {
             txtSeleccion.setText("El valor de " + libro + " es: " + precioLibros.getElAlquimista());
         }
+        else if (libro.equals("El Poder")) {
+            txtSeleccion.setText("El valor de " + libro + " es: " + precioLibros.getElPoder());
+        }
+        else if (libro.equals("Despertar")) {
+            txtSeleccion.setText("El valor de " + libro + " es: " + precioLibros.getDespertar());
+        }
     }
 }

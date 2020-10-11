@@ -1,14 +1,14 @@
 package Clases;
 
 public class PrecioLibros {
-    private int farenheith;
-    private int revival;
-    private int elAlquimista;
+    private int farenheith, revival, elAlquimista, elPoder, despertar;
 
     public PrecioLibros() {
         farenheith = 7000;
         revival = 22000;
         elAlquimista = 45000;
+        elPoder = 88000;
+        despertar = 156000;
     }
 
     public int getFarenheith() {
@@ -21,5 +21,13 @@ public class PrecioLibros {
 
     public int getElAlquimista() {
         return elAlquimista;
+    }
+
+    public int getElPoder() {
+        return elPoder;
+    }
+
+    public int getDespertar() {
+        return despertar;
     }
 }
